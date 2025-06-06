@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1",
     "chess.js": "^1.0.0",
-    "react-chessboard": "^2.0.8"
+    "react": "^18.2.0",
+    "react-chessboard": "^2.0.8",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "main": "/index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
   },
   "scripts": {
     "start": "react-scripts start"
